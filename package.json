@@ -1,15 +1,37 @@
 {
-  "name": "start",
+  "name": "qa_testing",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Serna",
   "license": "ISC",
-  "description": "",
+  "description": "**QA_testing** Quality Assurance testing by jasmine",
   "devDependencies": {
     "jasmine": "^4.6.0"
-  }
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "jasmine-core": "^4.6.0",
+    "minimatch": "^3.1.2",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabserna/QA_testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabserna/QA_testing/issues"
+  },
+  "homepage": "https://github.com/gabserna/QA_testing#readme"
 }
